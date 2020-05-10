@@ -1,7 +1,7 @@
 def square_array(array)
-  n = array.length
-  while n > 0 do
-    array
-    n -= 1
-  end 
+  new_array = []
+  array.length.times do |index|
+  new_array.push(array[index] + 1)
+end
+new_array
 end
